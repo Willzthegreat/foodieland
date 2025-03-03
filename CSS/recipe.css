@@ -1,0 +1,124 @@
+:root {
+    --lightblue: #e8f6fc;
+    --darker-blue: #8fddfe;
+    --lightgreen: #f3f4f0;
+    --vegan: #f4f9f0;
+    --meat: #fcf1f0;
+    --dessert: #fffbf4;
+    --lunch: #f4f4f4;
+    --chocolate: #f5f5f5;
+    --web-flow: #f69487;
+}
+
+*{
+  font-family: "Poppins", serif; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+
+
+.chef-professional {
+    text-align: center;
+}
+
+.chef-header-text {
+    margin: 20px 0 -45px 0;
+}
+
+.chef-header-text h1 {
+    font-size: 2.8rem;
+    margin: 1em 0 0.3em 0;
+}
+
+.chef-profile {
+    margin: -10em 33em 0 36em;
+}
+
+.blog2-pro img {
+    margin-top: 0.1em;
+    padding-top: 0.6em;
+}
+
+.blog2-pro h2 {
+    margin-top: 0.3em;
+    width: 5em;
+}
+
+.blog2-date p {
+    width: 9em;
+}
+
+.chef-lower-text {
+    padding: 0 390px;
+    margin: 0 0 6em 0;
+}
+
+/* Chef Image Starts Here */
+
+.chef-image  {
+    border-radius: 30px;
+    margin: 0  10em 3em 7em;
+}
+
+.chef-image  img{
+   border-radius: 30px;
+   width: 82.9em;
+}
+
+
+/* Chef Image Ends Here */
+
+.b-media-right {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.blog-media-left {
+    margin: 0 -5em 0 0;
+    padding: 0 2em 0.6em 2em;
+}
+
+.blog-media-right {
+    margin: 0 0 0 5em;
+    padding-left: 9em;
+}
+
+.media-text h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.media-lorem {
+    /* background-color: var(--web-flow); */
+    background-color: #e4e4e4;
+    padding: 2em 3em;
+    font-size: 1.3rem;
+}
+
+
+.social-media-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.1em;
+    margin: 0.6em 6em 0 1.6em;
+}
+
+
+/* Inbox Deliciousness Section Ends Here */
+
+
+.delicious-recipe1 {
+    text-align: center;
+    margin-top: 6em;
+}
+
+

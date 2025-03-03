@@ -1,0 +1,151 @@
+:root {
+    --lightblue: #e8f6fc;
+    --darker-blue: #8fddfe;
+    --lightgreen: #f3f4f0;
+    --vegan: #f4f9f0;
+    --meat: #fcf1f0;
+    --dessert: #fffbf4;
+    --lunch: #f4f4f4;
+    --chocolate: #f5f5f5;
+    --web-flow: #f69487;
+}
+
+*{
+  font-family: "Poppins", serif; 
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 1em;
+    box-shadow: 1px 1px 4px #dedede;
+    z-index: 1;
+    position: relative;
+}
+
+.f-logo a img {
+    margin-top: 8px;
+    max-width: 13vw;
+}
+
+.nav-links {
+    display: flex;
+    padding: 1.2em 1em;
+    gap: 3em;
+}
+
+.nav-links  {
+    font-size: 1vmax;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links a:hover {
+    color:var(--darker-blue);
+}
+
+.socials {
+    display: flex;
+    padding: .4em 0 0 0;
+    gap: 1em;
+    font-size: 1.7vmax;
+}
+
+.socials a i {
+    color: black; 
+}
+
+
+.hamburger-open {
+    display: none;
+}
+
+.hamburger-close {
+    display: none;
+}
+
+
+@media (width <= 63em) {
+
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        margin-top: 5.6em;
+        padding-top: 6em;
+        right: 0;
+        gap: 0;
+        border-top: 3px solid #fff;
+        width: 40vmax;
+        height: 150vh;
+        gap: .7em;
+        background: var(--lightblue);
+        z-index: 999;
+        transition: 200ms ease-in-out;
+    }
+    
+     .socials {
+        font-size: 1.8vmax;
+        margin-right: -9em;
+    }
+
+    .nav-links a {
+        font-size: 1rem;
+        padding: 1em;
+        box-shadow: 1px 0 5px #8fddfe;
+    }
+
+    .nav-links a:hover {
+        background-color: white;
+    }
+
+    .hamburger-open {
+        display: block;
+        padding-top: .1em;
+        margin-right: -5em;
+        font-size: 2.2vmax;
+    }
+
+    .hamburger-close {
+        display: none;
+    }
+
+    
+}
+
+
+@media (width <= 40em) {
+    .f-logo a img {
+        max-width: 14vw;
+    }  
+
+    .nav-links a {
+        font-size: .8rem;
+    }
+
+    .hamburger-open {
+        padding-top: .19em;
+    }
+}
+
+/* NavBar Ends Here */
+
+
+
+
+
+
+
+
+

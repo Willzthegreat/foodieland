@@ -1,0 +1,182 @@
+/* Blog Search starts Here */
+.blog-article {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.blog-article h2 {
+    font-size: 2.5rem;
+}
+
+.blog-article p {
+    font-size: 0.8rem;
+}
+
+.blog-search {
+    border: 1px solid #e4e4e4;
+    width: 27vw;
+    height: 6vh;
+    margin:40px 0 20px 560px;
+    border-radius: 25px;
+
+}
+
+.blog-search input {
+    width: 20vw;
+    height: 6vh;
+    padding-left: 24px;
+    border-radius: 25px 0 0 25px;
+    border: none;
+    outline: none;
+}
+
+.blog-search button {
+    width: 6.5vw;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Blog Search Ends Here */
+
+/* blog-media-Left */
+.media-section {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 3fr 2fr;
+    margin: 40px 90px;
+}
+
+.med-blog {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+}
+
+.blog1 {
+    border-radius: 18px;
+    width: 24vw;
+    height: 32vh;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.blog1 img {
+    border-radius: 18px;
+    width: 24vw;
+    height: 32vh;
+    display: block;
+}
+
+.blog2-text a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+}
+
+.blog2-profile {
+    display: flex;
+    justify-content: flex-start;
+    padding: 4px;
+    margin-top: 50px;
+}
+
+.blog2-pro {
+    display: flex;
+    padding-right: 90px;
+}
+
+.blog2-pro  img {
+    width: 2.5vw;
+    height: 6vh;
+    border-radius: 50%;
+    margin: 0 9px 0 0;
+    
+}
+
+.blog2-pro a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.blog2-date {
+    border-left: 1px solid #e4e4e4;
+    padding-left: 10px;
+}
+
+.blog2-date p, .blog2a-text p {
+    color: #8d8d8d;
+}
+
+/* blog-media-right */
+
+
+.med-blog2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+}
+
+.blog1a {
+    border-radius: 18px;
+    width: 12vw;
+    height: 20vh;
+    margin-top: 12px;
+    overflow: hidden;
+}
+.blog1a img {
+    border-radius: 18px;
+    width: 19vw;
+    height: 20vh;
+    display: block;
+}
+
+.blog2a-text h2 a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.blog2a-text p a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-ads {
+    margin: 40px 60px;
+}
+
+
+.next-page {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 30px 0;
+}
+ 
+.n-pages {
+    border: 1px solid #b0b0b0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.n-pages a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    background-color: black;
+}
+
+.active a{
+    color: white;
+}
+
+

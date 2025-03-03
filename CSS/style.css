@@ -1,0 +1,962 @@
+:root {
+    --lightblue: #e8f6fc;
+    --darker-blue: #8fddfe;
+    --lightgreen: #f3f4f0;
+    --vegan: #f4f9f0;
+    --meat: #fcf1f0;
+    --dessert: #fffbf4;
+    --lunch: #f4f4f4;
+    --chocolate: #f5f5f5;
+    --web-flow: #f69487;
+}
+
+*{
+  font-family: "Poppins", serif; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    padding: 8px;
+    box-shadow: 1px 1px 4px #dedede;
+    z-index: 1;
+    position: relative;
+}
+
+.f-logo a img {
+    margin-top: 8px;
+    width: 10vw;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links ul li {
+    font-size: 0.9rem;
+    list-style: none;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links ul li a:hover {
+    color:var(--darker-blue);
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    margin: 6px -270px 0 0;
+    font-size: 1.8rem;
+}
+
+.socials a i {
+    color: black; 
+}
+
+.menu {
+    display: none;
+}
+
+/* Nav Bar Ends Here */
+
+/* Head Section Starts Here */
+
+.head-section {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 140px;
+    margin: 0 0 510px 0;
+    
+}
+
+.head-section-text {
+    padding: 40px 0 0 40px ;
+    background-color: var(--lightblue);
+    border-radius: 40px 0 0 40px;
+}
+
+.hand-baked-recipe {
+    position: relative;
+    z-index: 1;
+    left: -50px;
+    top: 20px;
+}
+/* Header Text */
+
+.header-image-text {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 140px;
+    position: absolute;
+}
+
+.hot-recipe button, .minutes-button button {
+    width: 10vw;
+    height: 5vh;
+    border: 0;
+    border-radius: 29px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: -2px 1px 19px #aad1e496;
+}
+
+.hot-list, .bx {
+    margin: 9px 4px 3px 0;
+}
+.hot-word  {
+    margin: 9px 5px;
+}
+
+.hot-word  a{
+    text-decoration: none;
+    color: black;
+}
+
+.heading-text h1 {
+    font-size: 3rem;
+    margin: 30px 0 -5px 0;
+}
+
+.heading-text p {
+    font-size: 0.7rem;
+    margin-bottom: 30px;
+    padding:  0 75.6px 0 0;
+}
+
+.minutes-button {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.minutes-button button {
+    background-color: #edededdf;
+    display: flex;
+    gap: 7px;
+}
+
+.bx {
+    font-size: 18px;
+}
+
+/* User Profile  */
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.profile-layer {
+    display: flex;
+}
+
+.profile-img img {
+    width: 3vw;
+    margin-right: 15px;
+}
+
+.profile-names h2 {
+    font-size: 0.8rem;
+    margin-top: -1px;
+}
+
+.profile-names p {
+    font-size: 0.9rem;
+    margin-top: -9px;
+}
+
+.recipe-view button{
+    width: 10vw;
+    height: 5vh;
+    border: 0;
+    margin-right: 25px;
+    border-radius: 29px;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.hot-word1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.hot-word1 {
+    margin: 8px 6px;
+}
+
+/* header Image */
+
+.img img {
+    width: 44vw;
+    height: 80vh;
+    border-radius: 0 40px 40px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* Categories Section Starts Here*/
+
+.categories {
+    margin: 160px 140px;
+}
+
+.categories-sub-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.cat-header {
+    font-size: 2rem;
+}
+
+.view-categories {
+    background-color: var(--lightblue);
+    width: 10vw;
+    height: 6vh;
+    margin-top: 25px;
+    border-radius: 25px;
+    /* padding: 10px; */
+}
+
+.view-categories p {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.view-categories a{
+    text-decoration: none;
+    color: black;
+}
+.categories-grids {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.cat-grids {
+    text-align: center;
+    border-radius: 26px;
+    
+}
+
+.breakfast {
+    background-image: linear-gradient(white 60px, #f3f4f0);
+}
+
+.vegan {
+    background-image: linear-gradient(white 60px, #f4f9f0);
+}
+
+.meat {
+    background-image: linear-gradient(white 60px, #fcf1f0);
+}
+
+.dessert {
+    background-image: linear-gradient(white 60px, #fffbf4);
+}
+
+.lunch {
+    background-image: linear-gradient(white 60px, #f4f4f4);
+}
+
+.chocolate {
+    background-image: linear-gradient(white 60px, #f5f5f5);
+}
+
+.cat-grids img {
+    padding: 20px 10px 0 45px;
+    left: 90px;
+    border-radius: 26px  25px 0 0;
+}
+
+.cat-grids a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Categories Section Ends Here */
+
+
+/* Simple-and-Testy Recipe Starts Here */
+
+.simple-recipe {
+    text-align: center;
+}
+
+.simple-recipe h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.simple-recipe p {
+    font-size: 0.8rem;
+    margin-top: -20px;
+}
+
+.testy-recipe {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 110px;
+    gap: 30px 10px;
+}
+
+.testy-grid {
+    justify-content: center;
+    background-color: var(--lightblue);
+    width: 25vw;
+    height: 61vh;
+    border-radius: 21px;
+    padding: 0 20px;
+}
+
+.testy-gd {
+    width: 25vw;
+    height: 35vh;
+    border-radius: 26px;
+    overflow: hidden;
+}
+
+.testy-gd img {
+    display: block;
+    padding: 0 0 0 10px;
+    border-radius: 26px;
+}
+
+.testy-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.flex-time {
+    display: flex;
+}
+
+.flex-time i {
+    margin-top: 18px;
+}
+
+/* Chef Section Starts Here */
+
+.chef {
+    display: flex;
+    justify-content: center;
+    margin: 30px 100px;
+}
+
+.chef-text {
+    padding: 10px 10px;
+}
+
+.chef-text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: "Poppins", serif; 
+    padding-right: 40px;
+    margin: 130px 0 0 0;
+}
+
+.chef-text p {
+    font-size: 1.2rem;
+    margin: 40px 45px 90px 0;
+}
+
+.chef-text button {
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+}
+
+.hover-chef-food {
+    position: absolute;
+    z-index: 1;
+    left: 880px;
+    top: 2900px;
+}
+
+.foodie2 {
+    left: 1320px;
+    top: 3030px;
+}
+
+.foodie3 {
+    left: 820px;
+    top: 3230px;
+}
+
+.foodie4 {
+    left: 1190px;
+    top: 2900px;
+}
+.chef-img {
+    border-radius: 32px;
+    width: 68vw;
+    height: 85vh;
+}
+
+.img-of-chef {
+    border-radius: 32px;
+    position: relative;
+    width: 38.2vw;
+    height: 85vh;
+    right: -58.9px;
+    background-image: linear-gradient(white,#e8f6fc);
+}
+
+.img-of-chef img {
+    display: block;
+    right: 30px;
+    width: 39vw;
+    top: 56px;
+    left: -80px;
+    position: absolute;
+}
+
+/* Chef Section Ends Here */
+
+/* Foodie land on Instagram Section Starts Here */
+
+.instagram {
+    text-align: center;
+    margin-top: 120px;
+    margin: 60px 90px 60px 90px;
+    padding-bottom: 40px;
+    background-image: linear-gradient(white,#e8f6fc);
+}
+
+.inst-header h2{
+    font-size: 2rem;
+}
+
+.inst-header p{
+    font-size: 0.9rem;
+    margin: -10px;
+}
+
+.insta-page {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+    padding: 30px 60px;
+}
+.page {
+    background-color: white;
+    box-shadow: 1px 1px 12px #c6e3f0;
+}
+
+.insta-profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 18px 5px 5px;
+}
+
+.insta-pic-user {
+    display: flex;
+    gap: 4px;
+}
+
+.insta-pics {
+    border-radius: 50%;
+    width: 2.4vw;
+    height: 5vh;
+    padding: 2px;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.insta-pics img {
+    left: -5px;
+    top: -5px;
+    position: absolute;
+}
+
+.insta-username h2{
+    font-size: 0.7rem;
+    margin-bottom: -10px;
+}
+
+.insta-username p{
+    font-size: 0.6rem;
+}
+.dots {
+    font-size: 1.2rem;
+    margin: -11px 0 0 0;
+}
+
+.insta-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px 0 8px;
+}
+
+.social-icons a, .share a {
+    color: black;
+}
+.new-dots p {
+    margin: -1px 12px 0 0;
+    font-size: 1.4rem;
+}
+
+.users-likes {
+    display: flex;
+    justify-content: flex-start;
+    margin: 8px 0 0 0;
+}
+.users-pic1 {
+    border-radius: 50%;
+    width: 1.4vw;
+    height: 3vh;
+    padding: 2px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    margin:0 9px ;
+}
+
+.users-pic1 img {
+    width: 1.7vw;
+    height: 4vh;
+    left: 0;
+    top: -1px;
+    position: absolute;
+}
+
+.users-liking p {
+    font-size: 0.6rem;
+    margin: 3px 0 0 0;
+}
+
+.comment p{
+    text-align: left;
+    padding: 0 8px;
+    font-size: 0.8rem;
+    margin-bottom: 9px;
+}
+
+.comment p span{
+    font-weight: 600;
+}
+
+.date p {
+    margin-top: 40px;
+    font-size: 0.7rem;
+    text-align: left;
+    padding: 0 8px;
+}
+
+/* instagram-visit-link */
+
+.instagram-visit-link {
+    margin: 70px 540px 40px 540px;
+    text-align: center;
+    align-content: center;
+}
+
+.instagram-visit-link button {
+    width: 17vw;
+    height: 8vh;
+    border: none;
+    border-radius: 13px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.instagram-visit-link button i {
+    margin: 15px 6px;
+}
+
+
+/* Foodie land on Instagram Section Ends Here */
+
+/* delicious-recipe Section Starts Here */
+
+.delicious-rep {
+    margin: 10px 90px;
+}
+
+.delicious-recipe {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    padding: 0 90px;
+}
+
+.delicious-recipe h2 {
+    font-size: 2.3rem;
+}
+
+.delicious-recipe p {
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+/* Second section Delicious Recipe */
+
+.recipe-images {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px 110px;
+    gap: 30px 10px;
+}
+
+.delicious-view {
+    justify-content: center;
+    width: 18.6vw;
+    height: 59vh;
+    border-radius: 21px;
+    padding: 0 20px;
+}
+
+.view-delicious {
+    width: 18vw;
+    height: 35vh;
+    border-radius: 26px;
+    overflow: hidden;
+}
+
+.view-delicious img {
+    display: block;
+    padding: 0 0 0 10px;
+    border-radius: 26px;
+}
+
+.testy-word a{
+    margin: -10px 0 0 0;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.time-flexing {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.flex-timer {
+    display: flex;
+}
+
+.flex-timer i {
+    margin-top: 18px;
+}
+
+
+/* delicious-recipe Section Ends Here */
+
+/* Inbox Deliciousness Section Starts Here */
+
+.inbox-delicious {
+    background-color: var(--lightblue);
+    margin: 30px 90px;
+    text-align: center;
+    padding: 50px 90px;
+    border-radius: 40px;
+}
+
+.inbox-text h2 {
+    font-size: 2.3rem;
+    font-weight: 400;
+}
+
+
+.inbox-text p {
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+}
+
+.delicious-email {
+    border: 1px solid #aaaaaa;
+    width: 25vw;
+    height: 6.6vh;
+    right: 560px;
+
+    margin-left: 390px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 19px;
+}
+
+#email {
+    width: 18.2vw;
+    height: 6.4vh;
+    border-radius: 19px 0 0 19px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 0 0 0 4px;
+}
+
+.delicious-email button {
+    width: 6.17vw;
+    height: 6.6vh;
+    background-color: black;
+    color: white;
+    border-radius: 19px 19px;
+    cursor: pointer;
+}
+
+/* Inbox Deliciousness Section Ends Here */
+
+/* Footer Starts Here */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 90px 10px 90px;
+}
+
+.footer-logo p {
+    font-size: 0.7rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+.copyright {
+    display: grid;
+    padding: 20px;
+    margin: 0 60px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.d-icon {
+    margin: 6px 0 0 0;
+    padding-left: 390px;
+}
+
+
+
+
+/* Media Query */
+
+@media (max-width: 1232px) {
+    
+    /* Header Text */
+    
+    .hot-recipe button, .minutes-button button {
+        width: 9vw;
+    }
+    
+    .hot-list, .minutes-button .bx {
+        margin: 7px 2px 3px 0;
+    }
+    .hot-word {
+        margin: 9px 0;
+        font-size: 0.7rem;
+    }
+    
+    .heading-text h1 {
+        font-size: 2.5rem;
+    }
+    
+    .heading-text p {
+        font-size: 0.6rem;
+        padding:  0 10px 0 0;
+    }
+    
+    .minutes-button > .bx {
+        font-size: 18px;
+    }
+    
+    /* User Profile  */
+    
+    .profile {
+        margin-top: 90px;
+    }
+        
+   
+    
+    .profile-names h2 {
+        font-size: 0.7rem;
+    }
+    
+    .profile-names p {
+        font-size: 0.7rem;
+    }
+    
+    .recipe-view button{
+        width: 8vw;
+    }
+    
+    .hot-word1 {
+        font-size: 0.5rem;
+    }
+    
+    .recipe-view button i{
+       margin-top: 6px;
+    }
+    /* header Image */
+    
+    .img img {
+        height: 78.8vh;
+    }
+}
+
+
+
+@media (max-width: 860px) {
+    .f-logo a img {
+        margin-top: 12px;
+        width: 16vw;
+    }
+
+    .nav-links ul {
+        display: none
+    }
+
+    .menu {
+        display: block;
+        font-size: 2rem;
+        margin: 5px -200px 0 -120px;
+    }
+
+    /* For Tablet Side Bar */
+
+    /* HeaderSection Starts Here */
+    .head-section {
+        margin: 10px 70px;
+    }
+    
+
+    .hot-recipe button, .minutes-button button {
+        width: 12vw;
+        height: 4vh;
+    }
+    
+    .hot-list, .minutes-button .bx {
+        margin: 8px 0 3px 0;
+        width: 17px;
+        
+    }
+
+    .hot-word {
+        margin: 12px 0;
+        font-size: 0.6rem;
+    }
+    
+    .heading-text h1 {
+        font-size: 2rem;
+    }
+    
+    .heading-text p {
+        font-size: 0.5rem;
+        margin-bottom: 15px;
+        
+    }
+    
+    .bx {
+        font-size: 18px;
+    }
+    
+    /* User Profile  */
+    
+    .profile {
+        margin-top: 60px;
+    }
+    
+    .profile-img img {
+        width: 4vw;
+    }
+    
+    .profile-names h2 {
+        font-size: 0.6rem;
+        margin-top: 3px;
+    }
+    
+    .profile-names p {
+        font-size: 0.7rem;
+        margin-top: -9px;
+    }
+    
+    .recipe-view button{
+        width: 11vw;
+        height: 4vh;
+    }
+    
+    .hot-word1 {
+        margin: 12px 6px;
+        font-size: 0.5rem;
+    }
+
+    
+/* header Image */
+
+.img img {
+    width: 40vw;
+    height: 50vh;
+    border-radius: 0 40px 40px 0;
+    box-sizing: border-box;
+    display: block;
+}
+    
+}
+
+
+@media (max-width: 650px) {
+
+    .f-logo a img {
+        margin-top: 12px;
+        width: 28vw;
+    }
+
+    .nav-links ul {
+        display: none
+    }
+
+    .menu {
+        display: block;
+        font-size: 2rem;
+        margin: 5px -20px 0 -30px;
+    }
+
+    .socials{
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+
+    /* For Mobile Side Bar */
+
+}

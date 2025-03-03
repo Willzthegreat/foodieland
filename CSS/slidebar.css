@@ -1,0 +1,112 @@
+body{
+    
+}
+/* 
+.body-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid;
+    min-height: 100px;
+    gap: 4px;
+}
+
+.box {
+    flex-grow: 1;
+    width: min(.1rem, 2em);
+    background-color: aqua;
+    margin: .6em .6em;
+    padding: 4em;
+    font-size: 1rem;
+}
+
+@media (width <= 40em) {
+    .box {
+       flex: 20%;
+    }
+    
+    
+}
+
+@media (width <= 61em) {
+    .box {
+        flex: 20%; 
+     }
+} */
+
+
+/* .body-box {
+    border: 1px solid;
+    margin: 3em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.box {
+    background-color: aqua;
+    padding: 2em;
+    height: 2em;
+    flex: 1;
+    
+}
+
+@media (width <= 40em) {
+   .box {
+     flex: 20%;
+   } 
+
+}
+
+
+@media (width <=78em) {
+    .box {
+        flex: 20%;
+      } 
+    
+} */
+
+
+
+/* .body-box {
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    gap: .5em;
+    grid-auto-rows: 1fr;
+}
+
+.box {
+    background-color: aqua;
+    padding: 2em;
+}
+
+.box1 h1{
+    background-color: blue;
+    border-radius: 61px 10px 41px 3px;
+    padding: .5em 2em;
+    font-size: clamp(1rem, 2rem, 20%);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
