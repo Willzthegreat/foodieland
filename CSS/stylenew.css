@@ -146,6 +146,8 @@ nav{
 /* Head Section Starts Here */
 
 .head-section {
+    margin-top: 60px;
+    //width: 50px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -190,6 +192,8 @@ nav{
 }
 
 .hot-recipe button, .minutes-button button {
+    margin: 50px;
+
     width: 10vw;
     height: 5vh;
     border: 0;
@@ -215,11 +219,14 @@ nav{
 .heading-text h1 {
     /* font-size: 3rem; */
     /* font-size: 5vw; */
+    padding: 0 0 0 30px;
     font-size: clamp(9px, 5rem, 16px);
     margin: 30px 0 -5px 0;
 }
 
 .heading-text p {
+    margin-left: 30px;
+    padding: 0 0 0 30px;
     font-size: 0.7rem;
     margin-bottom: 30px;
     padding:  0 75.6px 0 0;
